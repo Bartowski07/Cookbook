@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.2 em;
+}
+h2 {
+  font-size: 1 em;
+}
+h3 {
+  font-size: 0.7 em;
+}
