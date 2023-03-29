@@ -13,3 +13,19 @@ h2 {
 h3 {
   font-size: 0.7 em;
 }
+
+.titelbild {
+  height: 50vh;
+  background: url("img/titelbild.jpg") no-repeat center;
+  background-size: cover;
+  padding: 4em;
+}
+
+.titelbild h1 {
+  text-align: center;
+  padding: 0.5em;
+  margin: 0 auto;
+  background-color: rgb(241, 255, 231, 0.7);
+  width: 60vw;
+  border-radius: 10px;
+}
