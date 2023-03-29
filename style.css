@@ -5,7 +5,10 @@
 }
 
 body {
-  /* font-family: "Alkatra", cursive; */
+  /* font-family: "Alkatra", cursive;
+  font-family: "Fredericka the Great", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Serif Pro", serif; */
   font-family: "Lobster", cursive;
 }
 
@@ -46,9 +49,13 @@ nav {
   width: 100%;
 }
 
-/* .nav-center {
+.nav-center {
   text-align: center;
-} */
+  font-family: "Fredericka the Great", cursive;
+  font-size: 2rem;
+  margin: 0;
+  padding-left: 16rem;
+}
 
 .nav-right {
   display: flex;
@@ -138,6 +145,12 @@ nav {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 3.5rem;
 }
+
+.rezept-container img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
 .rezepte {
   display: flex;
   flex-wrap: wrap;
@@ -148,6 +161,7 @@ nav {
 .box3 {
   width: 100%;
   font-weight: bolder;
+  overflow: hidden;
 }
 
 .box1,
@@ -175,19 +189,19 @@ nav {
 
 /* footer */
 footer {
-  background-color: #FF6542;
-  height: 25rem;
+  background-color: #FF6542; 
+  height: 23rem;
   display: flex;
   justify-content: center;
   padding-top: 5rem;
   color: white;
-  font-family: "Alkatra", cursive;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 62rem;
 }
 
 footer a {
@@ -203,17 +217,23 @@ footer li {
   list-style: none;
 }
 
-.foot-left {
-  
+.food-group {
+  padding-top: 0.3rem;
 }
 
 .helpful-links {
-  
+  padding-top: 0.3rem;
 }
 
 .foot-left h2 {
   margin: 0;
   text-align: start;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 3rem;
+}
+
+.foot-left h2:hover {
+  cursor: pointer;
 }
 
 .helpful-links ul {
