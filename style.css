@@ -40,6 +40,10 @@ nav {
   align-items: center;
   align-content: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 /* .nav-center {
@@ -66,6 +70,7 @@ nav {
 .nav-right h6 {
   font-size: 1.3rem;
 }
+
 /* End styling for Nav, Header & Footer */
 
 /* Styles for main and title */
@@ -170,12 +175,19 @@ nav {
 
 /* footer */
 footer {
-  background-color: #2a2b2e;
+  background-color: #FF6542;
   height: 25rem;
   display: flex;
-  justify-content:space-around; 
+  justify-content: center;
+  padding-top: 5rem;
   color: white;
   font-family: "Alkatra", cursive;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
 }
 
 footer a {
@@ -184,16 +196,34 @@ footer a {
 }
 
 footer a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer li {
   list-style: none;
 }
 
-.helpful-links {
-  padding-left: 0px;
+.foot-left {
+  
+}
 
+.helpful-links {
+  
+}
+
+.foot-left h2 {
+  margin: 0;
+  text-align: start;
+}
+
+.helpful-links ul {
+  text-align: start;
+  padding: 0;
+}
+
+.food-group ul {
+  text-align: start;
+  padding: 0;
 }
 
 /* end footer */
