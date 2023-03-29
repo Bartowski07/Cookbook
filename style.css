@@ -61,4 +61,25 @@ nav {
 footer {
   background-color: #2a2b2e;
   height: 25rem;
+  display: flex;
+  justify-content:space-around; 
+  color: white;
+  font-family: "Alkatra", cursive;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
+
+footer li {
+  list-style: none;
+}
+
+.helpful-links {
+  padding-left: 0px;
 }
