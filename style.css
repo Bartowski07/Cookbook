@@ -12,20 +12,80 @@ body {
 h1 {
   font-size: 1.2 em;
 }
+
 h2 {
   font-size: 1 em;
   text-align: center;
   margin: 1rem;
 }
+
 h3 {
   font-size: 0.7 em;
 }
-
 
 h4 {
   color: #ff6542;
   font-size: 15px;
 }
+
+/* Styling for Nav, Header & Footer */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1ffe7;
+  padding: 0.7rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  /* padding-top: 1.2rem; */
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* .nav-center {
+  text-align: center;
+} */
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  width: 19rem;
+  color: rgb(156, 156, 156);
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+}
+
+.nav-right a:hover {
+  color: rgb(32, 32, 32);
+  transition: all 0.3s ease;
+}
+
+.nav-right h6 {
+  font-size: 1.3rem;
+}
+/* End styling for Nav, Header & Footer */
+
+/* Styles for main and title */
+.titelbild {
+  height: 50vh;
+  background: url("img/titelbild.jpg") no-repeat center;
+  background-size: cover;
+  padding: 4em;
+}
+
+.titelbild h1 {
+  text-align: center;
+  padding: 0.5em;
+  margin: 0 auto;
+  background-color: rgb(241, 255, 231, 0.7);
+  width: 60vw;
+  border-radius: 10px;
+}
+/* End styles for main and title */
+
 /* Container */
 
 .main-rezept {
@@ -106,63 +166,9 @@ h4 {
   width: 100%;
 }
 
-/* Container */
+/* End container */
 
-
-.titelbild {
-  height: 50vh;
-  background: url("img/titelbild.jpg") no-repeat center;
-  background-size: cover;
-  padding: 4em;
-}
-
-.titelbild h1 {
-  text-align: center;
-  padding: 0.5em;
-  margin: 0 auto;
-  background-color: rgb(241, 255, 231, 0.7);
-  width: 60vw;
-  border-radius: 10px;
-
-/* Styling for Nav, Header & Footer */
-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: #f1ffe7;
-  padding: 0.7rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  /* padding-top: 1.2rem; */
-  align-items: center;
-  align-content: center;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
-
-/* .nav-center {
-  text-align: center;
-} */
-
-.nav-right {
-  display: flex;
-  justify-content: space-between;
-  width: 19rem;
-  color: rgb(156, 156, 156);
-}
-
-.nav-right a {
-  text-decoration: none;
-  color: rgb(156, 156, 156);
-}
-
-.nav-right a:hover {
-  color: rgb(32, 32, 32);
-  transition: all 0.3s ease;
-}
-
-.nav-right h6 {
-  font-size: 1.3rem;
-}
-
+/* footer */
 footer {
   background-color: #2a2b2e;
   height: 25rem;
@@ -190,3 +196,4 @@ footer li {
 
 }
 
+/* end footer */
