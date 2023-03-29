@@ -138,6 +138,14 @@ nav {
   flex-wrap: wrap;
 }
 
+/* .rezepte:hover {
+  scale: 1.05;
+} */
+
+.rezepte a {
+  text-decoration: none;
+}
+
 .box1,
 .box2,
 .box3 {
@@ -145,11 +153,12 @@ nav {
   font-weight: bolder;
 }
 
-.box1,
-.box2,
+.box1:hover,
+.box2:hover,
 .box3:hover {
-  cursor: pointer;
+  box-shadow: 0 0 1px 5px #FF6542;
 }
+
 .box4,
 .box5,
 .box6 {
@@ -157,7 +166,7 @@ nav {
   font-size: 12px;
   color: white;
   width: 100%;
-  border: 0.5px solid #f1ffe7;
+  /* border: 0.5px solid #f1ffe7; */
   text-align: center;
   padding: 0.8rem;
 }
