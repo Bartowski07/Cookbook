@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+body {
+  /* font-family: "Alkatra", cursive; */
+  font-family: "Lobster", cursive;
+}
+
 h1 {
   font-size: 1.2 em;
 }
@@ -13,6 +18,7 @@ h2 {
 h3 {
   font-size: 0.7 em;
 }
+
 
 .titelbild {
   height: 50vh;
@@ -28,4 +34,69 @@ h3 {
   background-color: rgb(241, 255, 231, 0.7);
   width: 60vw;
   border-radius: 10px;
+
+/* Styling for Nav, Header & Footer */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1ffe7;
+  padding: 0.7rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  /* padding-top: 1.2rem; */
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* .nav-center {
+  text-align: center;
+} */
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  width: 19rem;
+  color: rgb(156, 156, 156);
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+}
+
+.nav-right a:hover {
+  color: rgb(32, 32, 32);
+  transition: all 0.3s ease;
+}
+
+.nav-right h6 {
+  font-size: 1.3rem;
+}
+
+footer {
+  background-color: #2a2b2e;
+  height: 25rem;
+  display: flex;
+  justify-content:space-around; 
+  color: white;
+  font-family: "Alkatra", cursive;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
+
+footer li {
+  list-style: none;
+}
+
+.helpful-links {
+  padding-left: 0px;
+
 }
