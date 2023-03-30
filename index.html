@@ -19,12 +19,12 @@
   <header>
     <nav>
       <div class="nav-left">
-        <img src="img/cookbook.png" alt="logo" height="35rem" width="35rem" />
+        <a href="index.html"><img src="img/cookbook.png" alt="logo" height="35rem" width="35rem" /></a>
       </div>
       <h2 class="nav-center"></h2>
       <div class="nav-right">
         <h6>
-          Follow  <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook-logo-2019.png" alt="fblogo"
+          <a href="#" onclick="dontFollow()">Follow</a>  <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook-logo-2019.png" alt="fblogo"
               height="25rem" width="25rem" /></a>  
           <a href="https://www.twitter.com/" target="_blank"><img src="img/twitter.png" alt="twlogo" height="25rem"
               width="25rem" /></a>  
@@ -32,7 +32,7 @@
               width="25rem" /></a>
         </h6>
         <h6>
-          <a href="#search">Search 
+          <a href="#search" onclick="showError()">Search 
             <img src="img/search.png" alt="searchicon" height="25rem" width="25rem" /></a>
         </h6>
       </div>
@@ -148,6 +148,7 @@
     </div>
   </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
