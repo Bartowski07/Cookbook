@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-  font-size: 0.7em;
+  font-size: 2rem;
 }
 
 h4 {
@@ -112,11 +112,6 @@ h4 {
   padding: 15vh 10vw 0 10vw;
 }
 
-#kürbis-figure {
-  flex: 1;
-  width: 60%;
-}
-
 #kürbis-hs {
   flex: 1;
   width: 60%;
@@ -185,6 +180,7 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 3.5rem;
+  justify-content: center;
 }
 
 .rezept-container img:hover {
@@ -214,12 +210,6 @@ h4 {
   border-radius: 3px;
 }
 
-.box1:hover,
-.box2:hover,
-.box3:hover {
-  box-shadow: 0 0 1px 5px #ff6542;
-}
-
 .box4,
 .box5,
 .box6 {
@@ -231,18 +221,15 @@ h4 {
   font-size: 18px;
   color: black;
   width: 100%;
-  /* border: 0.5px solid #f1ffe7; */
   padding: 0.8rem;
 }
 
 .kürbis-p2 {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   font-family: "Barlow", sans-serif;
   font-family: "Roboto", sans-serif;
   color: black;
-  /* border: 0.5px solid #f1ffe7; */
   background-color: #ff6542;
   font-size: 12px;
   padding: 0.1rem;
@@ -371,12 +358,27 @@ footer li {
 }
 
 #kürbis-us {
-  width: 30%;
-  height: 70%;
+  width: 50%;
   border-radius: 3px;
-  border-color: #ff6542 #ff6542 white white;
-  border-style: solid solid solid solid;
-  border-width: 3px 3px 0px 0px;
+}
+
+.niveau {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.niveau-us {
+  font-family: "Barlow", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #ff6542;
+  font-size: 12px;
+  text-align: center;
+  padding: 0.1rem;
+  margin: 0rem 1rem 2rem 0rem;
+  opacity: 0.8;
+  color: black;
+  width: 8rem;
+  border-radius: 0.4rem;
 }
 
 /* background-color: #2a2b2e; */
@@ -403,20 +405,39 @@ footer li {
 
 .recipe_desc .recipeH {
   /* background-color: pink; */
+  font-size: 2rem;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  padding: 2rem;
 }
 
 .recipe_desc .desc {
   /* background-color: violet; */
+  font-family: "Barlow", sans-serif;
+  font-family: "Roboto", sans-serif;
+  padding: 2rem;
+  text-align: justify;
 }
 
 .recipe_desc .ingredientH {
   /* background-color: green; */
-  padding-top: 0.8em;
   text-transform: uppercase;
 }
-
+.container {
+  padding: 2rem;
+}
+.row {
+  font-family: "Barlow", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.ingredientH {
+  margin: 0 auto;
+  margin: 0rem 0rem 1rem 0rem;
+}
 .recipe_desc .quantity {
   /* background-color: red; */
+  font-weight: 700;
 }
 
 .recipe_desc .ingredient {
@@ -427,17 +448,23 @@ footer li {
 /* Steps Styling */
 
 .artsection-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 60%;
   margin: 0 auto;
-  margin-top: 1rem;
   /* font-family: "Roboto", sans-serif; */
   font-family: "Lato", sans-serif;
+  padding: 3rem;
 }
 
 .artsection-wrapper p {
-  width: 50%;
+  text-align: justify;
+  width: 100%;
+  justify-content: center;
   line-height: 1.8;
   font-size: 1.1rem;
+  padding: 1rem;
 }
 
 .steps-wrapper {
@@ -457,7 +484,7 @@ footer li {
 .step-number {
   width: 3rem;
   height: 3rem;
-  background: #95c03a;
+  background: #2a2b2e;
   color: #fff;
   display: flex;
   justify-content: center;
