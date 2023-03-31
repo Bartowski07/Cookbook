@@ -15,6 +15,7 @@ body {
 
 h1 {
   font-size: 1.2 em;
+  font-weight: bolder;
 }
 
 h2 {
@@ -46,6 +47,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .nav-center {
@@ -60,12 +62,12 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 19rem;
-  color: rgb(156, 156, 156);
+  color: black;
 }
 
 .nav-right a {
   text-decoration: none;
-  color: rgb(156, 156, 156);
+  color: black;
 }
 
 .nav-right a:hover {
@@ -74,7 +76,9 @@ nav {
 }
 
 .nav-right h6 {
-  font-size: 1.3rem;
+  font-size: 0.7rem;
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
 
 /* End styling for Nav, Header & Footer */
@@ -105,21 +109,25 @@ nav {
 .main-rezept {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 15vh 10vw 0 10vw;
 }
 
 #kürbis-hs {
+  flex: 1;
   width: 60%;
-  height: 70%;
-  padding: 8rem 0rem 0rem 12rem;
+  /* height: 70%; */
+  /* padding: 8rem 0rem 0rem 12rem; */
 }
 #kürbis-hs:hover {
   cursor: pointer;
 }
 .description-box {
+  flex: 1;
   background-color: #f1ffe7;
-  width: 22vw;
-  height: 55vh;
-  margin: 10rem 2.5rem 0rem 0rem;
+  /* width: 22vw; */
+  /* height: 55vh; */
+  margin: 2rem 2.5rem 0rem 0rem;
   padding: 2rem;
   text-align: justify;
   border-radius: 10px;
@@ -129,21 +137,15 @@ nav {
   font-size: 2rem;
   color: black;
   padding: 0rem 0rem 0.6rem 0rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
 }
 .kürbis-description {
   font-family: "Barlow", sans-serif;
-  font-family: "Barlow Condensed", sans-serif;
-  font-family: "Dosis", sans-serif;
-  font-family: "Patrick Hand", cursive;
-  font-family: "PT Sans", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 .kürbis-p {
   font-family: "Barlow", sans-serif;
-  font-family: "Barlow Condensed", sans-serif;
-  font-family: "Dosis", sans-serif;
-  font-family: "Patrick Hand", cursive;
-  font-family: "PT Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   background-color: #ff6542;
   font-size: 12px;
@@ -165,9 +167,11 @@ nav {
   height: 90vh;
 }
 #rezepte-titel {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
 }
 .main-rezepte {
   padding: 4%;
@@ -203,6 +207,7 @@ nav {
   width: 100%;
   font-weight: bolder;
   overflow: hidden;
+  border-radius: 3px;
 }
 
 .box1:hover,
@@ -214,18 +219,32 @@ nav {
 .box4,
 .box5,
 .box6 {
-  /* font-family: "Barlow", sans-serif;
-  font-family: "Barlow Condensed", sans-serif;
-  font-family: "Dosis", sans-serif;
-  font-family: "Patrick Hand", cursive;
-  font-family: "PT Sans", sans-serif;
-  font-family: "Roboto", sans-serif; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Barlow", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: black;
   width: 100%;
   /* border: 0.5px solid #f1ffe7; */
-  text-align: center;
   padding: 0.8rem;
+}
+
+.kürbis-p2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Barlow", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  /* border: 0.5px solid #f1ffe7; */
+  background-color: #ff6542;
+  font-size: 12px;
+  padding: 0.1rem;
+  opacity: 0.8;
+  border-radius: 0.4rem;
+  width: 8rem;
 }
 .rezept-p {
   font-family: "Barlow", sans-serif;
@@ -311,6 +330,96 @@ footer li {
 
 /* end footer */
 
+/* header-unterseite  */
+
+.container-unterseite {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.titel-unterseite {
+  margin: 8rem 0rem 1rem 0rem;
+  font-size: 2.5rem;
+  color: black;
+  padding: 0rem 0rem 0.6rem 0rem;
+  font-family: "Fredericka the Great", cursive;
+  font-weight: bolder;
+}
+
+.autor {
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.avatar-autor {
+  width: 5%;
+  padding: 0.5rem;
+}
+.autor-name {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+#kürbis-us {
+  width: 30%;
+  height: 70%;
+  border-radius: 3px;
+  border-color: #ff6542 #ff6542 white white;
+  border-style: solid solid solid solid;
+  border-width: 3px 3px 0px 0px;
+}
+
+/* background-color: #2a2b2e; */
+
+/* Recipe general */
+.main-rezeptseite {
+  margin-top: 3.5rem;
+}
+/* End Recipe general */
+
+/* Description and ingredients */
+/* .recipe_desc {
+  border: 4px solid blue;
+}
+
+.recipe_desc .row {
+  border: 4px solid green;
+} */
+
+.recipe_desc .row > div {
+  /* border: 4px solid orange; */
+  background-color: #f1ffe7;
+}
+
+.recipe_desc .recipeH {
+  /* background-color: pink; */
+}
+
+.recipe_desc .desc {
+  /* background-color: violet; */
+}
+
+.recipe_desc .ingredientH {
+  /* background-color: green; */
+  padding-top: 0.8em;
+  text-transform: uppercase;
+}
+
+.recipe_desc .quantity {
+  /* background-color: red; */
+}
+
+.recipe_desc .ingredient {
+  /* background-color: yellow; */
+}
+/* End Description and ingredients */
+
 /* Steps Styling */
 
 .artsection-wrapper {
@@ -318,7 +427,7 @@ footer li {
   margin: 0 auto;
   margin-top: 1rem;
   /* font-family: "Roboto", sans-serif; */
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .artsection-wrapper p {
@@ -365,4 +474,3 @@ footer li {
   align-self: center;
   line-height: 1.5;
 }
-
