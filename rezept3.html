@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Fredericka+the+Great&family=Lato:wght@300&family=Lobster&family=Roboto&family=Source+Serif+Pro&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Fredericka+the+Great&family=Lobster&family=Roboto&family=Source+Serif+Pro&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -28,95 +28,294 @@
     <header>
       <nav>
         <div class="nav-left">
-          <a href="index.html"
-            ><img
-              src="img/cookbook.png"
-              alt="logo"
-              height="35rem"
-              width="35rem"
-          /></a>
+          <img src="img/cookbook.png" alt="logo" height="35" width="35" />
         </div>
-        <h2 class="nav-center"></h2>
         <div class="nav-right">
           <h6>
-            <a href="#" onclick="dontFollow()">Follow</a>  <a
-              href="https://www.facebook.com/"
-              target="_blank"
+            Follow  <a href="https://www.facebook.com/" target="_blank"
               ><img
                 src="img/facebook-logo-2019.png"
                 alt="fblogo"
-                height="25rem"
-                width="25rem" /></a
+                height="25"
+                width="25" /></a
             >  
             <a href="https://www.twitter.com/" target="_blank"
               ><img
                 src="img/twitter.png"
                 alt="twlogo"
-                height="25rem"
-                width="25rem" /></a
+                height="25"
+                width="25" /></a
             >  
             <a href="https://www.instagram.com/" target="_blank"
-              ><img
-                src="img/instagram.png"
-                alt="iglogo"
-                height="25rem"
-                width="25rem"
+              ><img src="img/instagram.png" alt="iglogo" height="25" width="25"
             /></a>
           </h6>
           <h6>
-            <a href="#search" onclick="showError()"
+            <a href="#search"
               >Search 
-              <img
-                src="img/search.png"
-                alt="searchicon"
-                height="25rem"
-                width="25rem"
+              <img src="img/search.png" alt="searchicon" height="25" width="25"
             /></a>
           </h6>
         </div>
       </nav>
+      <section class="titelbild">
+        <h1>Veggie Rezepte</h1>
+      </section>
     </header>
-    <main>
-      <div>
-        <img src="" alt="" />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-6">Box1</div>
-          <div class="col-6">Box2</div>
+    <main class="main-rezeptseite">
+      <div class="container-unterseite">
+        <div><h2 class="titel-unterseite">Kürbissalat</h2></div>
+        <div class="autor">
+          <img src="img/male_autor.svg" class="avatar-autor" alt="male autor" />
+          <p class="autor-name">by L. P.</p>
+        </div>
+        <div>
+          <div class="img-bg">
+            <img
+              src="https://www.daskochrezept.de/sites/daskochrezept.de/files/styles/1500_1130/public/stockfood/stockfood-11512565.jpg?h=1d1fb3d8&itok=rMdpshtq"
+              alt="kürbissalat"
+              id="kürbis-us"
+            />
+          </div>
         </div>
       </div>
-      <h2></h2>
+      <div class="container recipe_desc">
+        <div class="row justify-content-around">
+          <div class="col-5">
+            <h3 class="recipeH">Beschreibung</h3>
+            <p class="desc">
+              Mit dem vegetarischen Gnocchi-Auflauf zauberst du schnell und
+              einfach ein grandioses Essen auf den Tisch! Fruchtige Tomaten und
+              leckerer Mozzarella geben besonders viel Aroma!
+            </p>
+          </div>
+          <div class="col-5">
+            <h3 class="recipeH">Zutaten</h3>
+            <div class="container">
+              <div class="row">
+                <div class="col px-0">
+                  <h5 class="ingredientH">Für die Gnocchi:</h5>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">500g</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Gnocchi</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">1 &frac14; TL</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Salz</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">4 EL</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Olivenöl</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">1 Prise</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Pfeffer</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col px-0">
+                  <h5 class="ingredientH">Für die Tomatensosse:</h5>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">400 g</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">gehackte Tomaten aus der Dose</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">&frac12; TL</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Salz</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity"></span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">etwas Pfeffer</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">2 TL</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">getrocknete Italienische Kräuter (z. B.: Oregano, Basilikum
+                    oder eine Gewürzmischung)</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">2 EL</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Olivenöl</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">1</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">mittelgroße Zwiebel</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">1 Zehe</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Knoblauch</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">150 g</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Kirschtomaten</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col px-0">
+                  <h5 class="ingredientH">Außerdem:</h5>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">200 g</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">geriebener Mozzarella</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <article class="artsection-wrapper">
         <div class="steps-wrapper">
           <span class="step">SCHRITT</span>
           <span class="step-number">1</span>
         </div>
-        <br>
+        <br />
+        <div class="ingredients">
+          <img
+            src="img/basket.png"
+            height="50"
+            width="50"
+            alt="shopping basket"
+          />
+          <p><strong>250 g</strong> Gnocchi<strong> ½ TL</strong> Salz</p>
+        </div>
+        <hr />
         <p>
-          Den Kürbis in kleine Würfel schneiden. Den Grünkohl abbrausen, putzen
-          und in die Blätter in Streifen schneiden. Die Quinoa in einem Sieb
-          abbrausen und abtropfen lassen.
+          Die Gnocchi in reichlich gesalzenes, kochendes Wasser geben und einmal
+          aufkochen bis sie an der Oberfläche schwimmen. Dort bei schwacher
+          Hitze ca. 2 Minuten ziehen lassen, dann herausnehmen und in einem Sieb
+          mit kaltem Wasser abschrecken. Gut abtropfen lassen.
         </p>
-        <br>
         <div class="steps-wrapper">
           <span class="step">SCHRITT</span>
           <span class="step-number">2</span>
         </div>
-        <br>
+        <br />
+        <div class="ingredients">
+          <img
+            src="img/basket.png"
+            height="50"
+            width="50"
+            alt="shopping basket"
+          />
+          <p>
+            <strong> 2 EL</strong> Olivenöl zum Anbraten,
+            <strong>0,13 TL</strong> Salz für die Gnocchi,<br />
+            <strong>½ Prise</strong> Pfeffer für die Gnocchi,
+            <strong>200 g</strong> gehackte Tomaten aus der Dose,<br />
+            <strong>¼ TL</strong> Salz für die Tomatensoße, etwas Pfeffer für
+            die Tomatensoße,<br />
+            <strong>1 TL</strong> getrocknete Italienische Kräuter (z. B.:
+            Oregano, Basilikum oder eine Gewürzmischung),<br />
+            <strong>1 EL</strong> Olivenöl für die Tomatensoße
+          </p>
+        </div>
+        <hr />
         <p>
-          Knoblauch und Ingwer schälen und beides fein hacken. In einem heißen
-          Topf im Öl kurz anschwitzen. Die Quinoa kurz mitbraten, Grünkohl und
-          Kürbis ergänzen und die Brühe angießen. Mit Salz, Pfeffer und Muskat
-          würzen, den Deckel auflegen und ca. 20 Minuten gar köcheln lassen.
-          Nach Bedarf Brühe nachgießen und vor dem Servieren mit Zitronensaft
-          abschmecken. Auf Schälchen verteilen und mit dem Sesam bestreut
-          servieren.
+          Das Olivenöl in einer Pfanne erhitzen. Die Gnocchi darin goldgelb
+          anbraten und mit Salz und Pfeffer würzen. Die Dosentomaten in eine
+          Schüssel geben und mit Salz, Pfeffer, den getrockneten Kräutern und
+          dem Olivenöl verrühren.
+        </p>
+        <div class="steps-wrapper">
+          <span class="step">SCHRITT</span>
+          <span class="step-number">3</span>
+        </div>
+        <br />
+        <div class="ingredients">
+          <img
+            src="img/basket.png"
+            height="50"
+            width="50"
+            alt="shopping basket"
+          />
+          <p>
+            <strong>½</strong> mittelgroße Zwiebel,
+            <strong>½ Zehe</strong> Knoblauch,
+            <strong>75 g</strong> Kirschtomaten
+          </p>
+        </div>
+        <hr />
+        <p>
+          Die Zwiebel schälen und in feine Würfel schneiden. Den Knoblauch
+          schälen und fein pressen. Die Kirschtomaten halbieren. Zwiebeln,
+          Knoblauch, Tomaten und Tomatensoße miteinander in der Schüssel
+          verrühren und gleichmäßig in einer Auflaufform verteilen.
+        </p>
+        <div class="steps-wrapper">
+          <span class="step">SCHRITT</span>
+          <span class="step-number">4</span>
+        </div>
+        <br />
+        <div class="ingredients">
+          <img
+            src="img/basket.png"
+            height="50"
+            width="50"
+            alt="shopping basket"
+          />
+          <p><strong>100 g</strong> geriebener Mozzarella</p>
+        </div>
+        <hr />
+        <p>
+          Den Backofen auf 180 Grad Umluft (200 Grad Ober- und Unterhitze)
+          vorheizen. Die Gnocchi mit der Tomatensoße vermischen und alles mit
+          dem geriebenen Käse bestreuen. Im vorgeheizten Backofen ca. 20 Minuten
+          überbacken.
         </p>
       </article>
-      <div>
-        <img src="" alt="" />
-      </div>
     </main>
     <footer>
       <div class="footer-wrapper">
@@ -176,6 +375,5 @@
         </div>
       </div>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
