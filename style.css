@@ -326,7 +326,7 @@ footer li {
 .container-unterseite {
   justify-content: center;
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .titel-unterseite {
@@ -360,6 +360,17 @@ footer li {
 #kürbis-us {
   width: 50%;
   border-radius: 3px;
+}
+.fa-solid.fa-heart,
+.fa-solid.fa-share-nodes,
+.fa-solid.fa-comments {
+  font-size: 25px;
+  padding: 2rem;
+}
+.fa-solid.fa-heart:hover,
+.fa-solid.fa-share-nodes:hover,
+.fa-solid.fa-comments:hover {
+  cursor: pointer;
 }
 
 .niveau {
