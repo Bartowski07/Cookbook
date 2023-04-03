@@ -184,24 +184,10 @@ nav {
   transition: transform 0.3s ease;
 }
 
-/* .rezepte:hover {
-  scale: 1.05;
-} */
-
 .rezepte a {
   text-decoration: none;
 }
 
-/* .box1,
-.box2,
-.box3 {
-  width: 100%;
-  text-align: center;
-  font-weight: bolder;
-  overflow: hidden;
-  border-radius: 3px;
-  /* border: solid 1px green; */
-/* } */
 .box4,
 .box5,
 .box6 {
@@ -448,9 +434,6 @@ footer li {
   font-weight: 700;
 }
 
-.recipe_desc .ingredient {
-  /* background-color: yellow; */
-}
 /* End Description and ingredients */
 
 /* Steps Styling */
