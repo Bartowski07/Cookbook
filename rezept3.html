@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,28 +14,58 @@
     <title>Cookbook</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,200&family=Barlow:ital,wght@0,100;0,200;0,400;0,700;0,800;1,700&family=Dosis:wght@200;300;400;700&family=PT+Sans:wght@400;700&family=Patrick+Hand&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Fredericka+the+Great&family=Lobster&family=Roboto&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,200&family=Barlow:ital,wght@0,100;0,200;0,400;0,700;0,800;1,700&family=Dosis:wght@200;300;400;700&family=PT+Sans:wght@400;700&family=Patrick+Hand&family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Fredericka+the+Great&family=Lobster&family=Roboto&family=Source+Serif+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
     <header>
       <nav>
         <div class="nav-left">
-          <a href="index.html"><img src="img/cookbook.png" alt="logo" height="35" width="35" /></a>
+          <a href="index.html"
+            ><img src="img/cookbook.png" alt="logo" height="35" width="35"
+          /></a>
         </div>
         <div class="nav-right">
           <h6>
-            <a href="#" onclick="dontFollow()">Follow</a>  <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook-logo-2019.png" alt="fblogo"
-                height="25" width="25" /></a>  
-            <a href="https://www.twitter.com/" target="_blank"><img src="img/twitter.png" alt="twlogo" height="25"
-                width="25" /></a>  
-            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="iglogo" height="25"
-                width="25" /></a>
+            <a href="#" onclick="dontFollow()">Follow</a>  <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              ><img
+                src="img/facebook-logo-2019.png"
+                alt="fblogo"
+                height="25"
+                width="25" /></a
+            >  
+            <a href="https://www.twitter.com/" target="_blank"
+              ><img
+                src="img/twitter.png"
+                alt="twlogo"
+                height="25"
+                width="25" /></a
+            >  
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="img/instagram.png" alt="iglogo" height="25" width="25"
+            /></a>
           </h6>
           <h6>
-            <a href="#search" onclick="showError()">Search 
-              <img src="img/search.png" alt="searchicon" height="25" width="25" /></a>
+            <a href="#search" onclick="showError()"
+              >Search 
+              <img src="img/search.png" alt="searchicon" height="25" width="25"
+            /></a>
           </h6>
         </div>
       </nav>
@@ -41,19 +75,27 @@
     </header>
     <main class="main-rezeptseite">
       <div class="container-unterseite">
-        <div><h2 class="titel-unterseite">Kürbissalat</h2></div>
+        <div><h2 class="titel-unterseite">Kartoffelsalat</h2></div>
         <div class="autor">
           <img src="img/male_autor.svg" class="avatar-autor" alt="male autor" />
           <p class="autor-name">by L. P.</p>
         </div>
+        <div class="niveau">
+          <p class="niveau-us">Niveau: einfach</p>
+          <p class="niveau-us">Kochzeit: 40 Min.</p>
+          <p class="niveau-us">Ruhen: 30 Min.</p>
+        </div>
         <div>
           <div class="img-bg">
             <img
-              src="https://www.daskochrezept.de/sites/daskochrezept.de/files/styles/1500_1130/public/stockfood/stockfood-11512565.jpg?h=1d1fb3d8&itok=rMdpshtq"
+              src="https://www.daskochrezept.de/sites/daskochrezept.de/files/styles/1500_1130/public/2021-08/kartoffelsalat_mit_mayo_1.jpg?h=4521fff0&itok=ycq91zVj"
               alt="kürbissalat"
               id="kürbis-us"
             />
           </div>
+          <i class="fa-solid fa-heart" style="color: #2a2b2e"></i>
+          <i class="fa-solid fa-share-nodes" style="color: #2a2b2e"></i>
+          <i class="fa-solid fa-comments" style="color: #2a2b2e"></i>
         </div>
       </div>
       <div class="container recipe_desc">
@@ -61,87 +103,37 @@
           <div class="col-5">
             <h3 class="recipeH">Beschreibung</h3>
             <p class="desc">
-              Mit dem vegetarischen Gnocchi-Auflauf zauberst du schnell und
-              einfach ein grandioses Essen auf den Tisch! Fruchtige Tomaten und
-              leckerer Mozzarella geben besonders viel Aroma!
+              Fast unverschämt lecker: Der Kartoffelsalat mit Mayo nach Omas Art
+              ist herrlich schlotzig! Mit Gewürzgurken und Brühe schmeckt der
+              Salat zudem himmlisch leicht.
+              <br />
+              <br />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Cupiditate dolorem quo doloribus dolorum. Quas, sit? Mollitia qui
+              nisi sapiente sint, modi sequi id ut natus, necessitatibus error
+              quidem unde laborum?
             </p>
           </div>
           <div class="col-5">
             <h3 class="recipeH">Zutaten</h3>
             <div class="container">
               <div class="row">
+                <div class="col px-0"></div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">600g</span>
+                </div>
                 <div class="col px-0">
-                  <h5 class="ingredientH">Für die Gnocchi:</h5>
+                  <span class="ingredient">Kartoffeln (festkochend)</span>
                 </div>
               </div>
               <div class="row">
                 <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity">500g</span>
+                  <span class="quantity">2</span>
                 </div>
                 <div class="col px-0">
-                  <span class="ingredient">Gnocchi</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity">1 &frac14; TL</span>
-                </div>
-                <div class="col px-0">
-                  <span class="ingredient">Salz</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity">4 EL</span>
-                </div>
-                <div class="col px-0">
-                  <span class="ingredient">Olivenöl</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity">1 Prise</span>
-                </div>
-                <div class="col px-0">
-                  <span class="ingredient">Pfeffer</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col px-0">
-                  <h5 class="ingredientH">Für die Tomatensosse:</h5>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity">400 g</span>
-                </div>
-                <div class="col px-0">
-                  <span class="ingredient">gehackte Tomaten aus der Dose</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity">&frac12; TL</span>
-                </div>
-                <div class="col px-0">
-                  <span class="ingredient">Salz</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity"></span>
-                </div>
-                <div class="col px-0">
-                  <span class="ingredient">etwas Pfeffer</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity">2 TL</span>
-                </div>
-                <div class="col px-0">
-                  <span class="ingredient">getrocknete Italienische Kräuter (z. B.: Oregano, Basilikum
-                    oder eine Gewürzmischung)</span>
+                  <span class="ingredient">Eier</span>
                 </div>
               </div>
               <div class="row">
@@ -149,7 +141,47 @@
                   <span class="quantity">2 EL</span>
                 </div>
                 <div class="col px-0">
-                  <span class="ingredient">Olivenöl</span>
+                  <span class="ingredient">Dijonsenf</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">300 ml</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Gemüsebrühe</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">50 ml</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Weißweinessig</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">½ TL</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Salz</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">¼ TL</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Pfeffer</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 col-sm-4 col-md-3 px-0">
+                  <span class="quantity">¼ TL</span>
+                </div>
+                <div class="col px-0">
+                  <span class="ingredient">Zucker</span>
                 </div>
               </div>
               <div class="row">
@@ -157,36 +189,23 @@
                   <span class="quantity">1</span>
                 </div>
                 <div class="col px-0">
-                  <span class="ingredient">mittelgroße Zwiebel</span>
+                  <span class="ingredient">Zwiebel</span>
                 </div>
               </div>
               <div class="row">
                 <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity">1 Zehe</span>
+                  <span class="quantity">3</span>
                 </div>
                 <div class="col px-0">
-                  <span class="ingredient">Knoblauch</span>
+                  <span class="ingredient">Gewürzgurken</span>
                 </div>
               </div>
               <div class="row">
                 <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity">150 g</span>
+                  <span class="quantity">1 Bd.</span>
                 </div>
                 <div class="col px-0">
-                  <span class="ingredient">Kirschtomaten</span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col px-0">
-                  <h5 class="ingredientH">Außerdem:</h5>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-5 col-sm-4 col-md-3 px-0">
-                  <span class="quantity">200 g</span>
-                </div>
-                <div class="col px-0">
-                  <span class="ingredient">geriebener Mozzarella</span>
+                  <span class="ingredient">glatte Petersilie</span>
                 </div>
               </div>
             </div>
@@ -206,14 +225,17 @@
             width="50"
             alt="shopping basket"
           />
-          <p><strong>250 g</strong> Gnocchi<strong> ½ TL</strong> Salz</p>
+          <p>
+            <strong>600 g</strong> Kartoffeln (festkochend) &<strong> 2</strong>
+            Eier
+          </p>
         </div>
         <hr />
         <p>
-          Die Gnocchi in reichlich gesalzenes, kochendes Wasser geben und einmal
-          aufkochen bis sie an der Oberfläche schwimmen. Dort bei schwacher
-          Hitze ca. 2 Minuten ziehen lassen, dann herausnehmen und in einem Sieb
-          mit kaltem Wasser abschrecken. Gut abtropfen lassen.
+          Die Kartoffeln mit Schale waschen und in leicht gesalzenem Wasser ca.
+          15-20 Minuten (je nach Größe) weich kochen. Noch warm schälen und in 2
+          x 2 cm große Würfel schneiden. Währenddessen die Eier ca. 8 Minuten
+          hart kochen.
         </p>
         <div class="steps-wrapper">
           <span class="step">SCHRITT</span>
@@ -228,23 +250,18 @@
             alt="shopping basket"
           />
           <p>
-            <strong> 2 EL</strong> Olivenöl zum Anbraten,
-            <strong>0,13 TL</strong> Salz für die Gnocchi,<br />
+            <strong> 80 g</strong> Mayonnaise, <strong>1 EL</strong> Dijonsenf,
             <strong>½ Prise</strong> Pfeffer für die Gnocchi,
-            <strong>200 g</strong> gehackte Tomaten aus der Dose,<br />
-            <strong>¼ TL</strong> Salz für die Tomatensoße, etwas Pfeffer für
-            die Tomatensoße,<br />
-            <strong>1 TL</strong> getrocknete Italienische Kräuter (z. B.:
-            Oregano, Basilikum oder eine Gewürzmischung),<br />
-            <strong>1 EL</strong> Olivenöl für die Tomatensoße
+            <strong>300 ml</strong> Gemüsebrühe,
+            <strong>50 ml</strong> Weißweinessig, <strong>½ TL</strong> Salz,
+            <strong>¼ TL</strong> Pfeffer & <strong>¼ TL</strong> Zucker
           </p>
         </div>
         <hr />
         <p>
-          Das Olivenöl in einer Pfanne erhitzen. Die Gnocchi darin goldgelb
-          anbraten und mit Salz und Pfeffer würzen. Die Dosentomaten in eine
-          Schüssel geben und mit Salz, Pfeffer, den getrockneten Kräutern und
-          dem Olivenöl verrühren.
+          Die Mayonnaise mit dem Dijon-Senf, der Gemüsebrühe und dem
+          Weißweinessig verrühren. Salz, Pfeffer, sowie den Zucker dazu rühren
+          und alles über die Kartoffeln gießen. Einmal gut mischen.
         </p>
         <div class="steps-wrapper">
           <span class="step">SCHRITT</span>
@@ -258,18 +275,13 @@
             width="50"
             alt="shopping basket"
           />
-          <p>
-            <strong>½</strong> mittelgroße Zwiebel,
-            <strong>½ Zehe</strong> Knoblauch,
-            <strong>75 g</strong> Kirschtomaten
-          </p>
+          <p><strong>1 </strong> Zwiebel & <strong>3 </strong> Gewürzgurken</p>
         </div>
         <hr />
         <p>
-          Die Zwiebel schälen und in feine Würfel schneiden. Den Knoblauch
-          schälen und fein pressen. Die Kirschtomaten halbieren. Zwiebeln,
-          Knoblauch, Tomaten und Tomatensoße miteinander in der Schüssel
-          verrühren und gleichmäßig in einer Auflaufform verteilen.
+          Die Zwiebel schälen. Die Zwiebel und die Gewürzgurken fein würfeln und
+          unter den Salat rühren. Den Salat ca. 30 Minuten ziehen lassen. In
+          dieser Zeit die Eier schälen und in grobe Stücke schneiden.
         </p>
         <div class="steps-wrapper">
           <span class="step">SCHRITT</span>
@@ -283,14 +295,17 @@
             width="50"
             alt="shopping basket"
           />
-          <p><strong>100 g</strong> geriebener Mozzarella</p>
+          <p>
+            <strong>1 Bd. </strong> glatte Petersilie & etwas Salz & Pfeffer
+          </p>
         </div>
         <hr />
         <p>
-          Den Backofen auf 180 Grad Umluft (200 Grad Ober- und Unterhitze)
-          vorheizen. Die Gnocchi mit der Tomatensoße vermischen und alles mit
-          dem geriebenen Käse bestreuen. Im vorgeheizten Backofen ca. 20 Minuten
-          überbacken.
+          Die Petersilie waschen, abtropfen lassen, vom Stängel abzupfen und die
+          Blätter grob hacken. Einen Teil über den Salat streuen und kurz vor
+          dem Servieren, zusammen mit den Eiern, darunter rühren. Den Salat
+          nochmals mit Salz und Pfeffer nachwürzen und mit der restlichen
+          Petersilie bestreuen.
         </p>
       </article>
     </main>
